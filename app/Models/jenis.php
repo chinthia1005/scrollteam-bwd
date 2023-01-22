@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class jenis extends Model
+{
+    use HasFactory;
+    protected $table='jeniss';
+    protected $fillable=[
+        'Jenis_Handphone',
+        'Fitur',
+        'Type',
+        'Harga',
+        'Kapasitas_Memory',
+        'Tahun_Rilis',
+        'Foto'
+    ];
+}
